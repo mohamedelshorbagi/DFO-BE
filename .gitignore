@@ -1,0 +1,76 @@
+# ---------- Visual Studio / IDE ----------
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.userprefs
+
+# ---------- Build output ----------
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# ---------- .NET / NuGet ----------
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+project.lock.json
+.nuget/
+artifacts/
+publish/
+PublishScripts/
+
+# ---------- Test results / coverage ----------
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+coverage*.json
+coverage*.xml
+*.coverage
+*.coveragexml
+TestResults/
+
+# ---------- ASP.NET runtime-generated media ----------
+**/App_Data/media/
+**/wwwroot/media/
+App_Data/
+
+# ---------- Secrets / local config ----------
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+*.pfx
+*.key
+.env
+.env.*
+
+# ---------- Local DBs / logs ----------
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.log
+
+# ---------- Rider / ReSharper / misc ----------
+_ReSharper*/
+*.DotSettings.user
+.dotnet/
+
+# ---------- OS files ----------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
